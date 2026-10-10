@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
     <!-- header -->
     <header>
       <div class="logo">
@@ -21,82 +24,154 @@
         <nav class="nav-bar">
           <a class="nav-links" href="#hero">Home</a>
           <a class="nav-links" href="#about">About Me</a>
-          <a class="nav-links" href="#skills">Skills</a>
-          <a class="nav-links" href="#education">Education</a>
           <a class="nav-links" href="#projects">Projects</a>
           <a class="nav-links" href="#contact">Contact</a>
         </nav>
       </aside>
     </header>
-
-    <!-- Hero-section -->
-    <section class="hero" id="hero">
-      <div class="orb orb1"></div>
-      <div class="orb orb2"></div>
-      <div class="orb orb3"></div>
-      <div class="hero-textuals">
-        <h1>Hi, I’m</h1>
-        <h1 class="gradient-text"> Khalil Ahmed</h1>
-        <p>
-          A passionate student learning web development and software
-          engineering.
-        </p>
-        <div class="hero-btns">
-          <button class="primary-btn"><a href="#projects">See My Work</a></button>
-          <button class="secondary-btn"><a href="#contact">Contact Me</a></button>
-        </div>
-      </div>
-      <div class="hero-visuals floating">
-        <img src="assets/myPic.JPG" alt="My Photo" />
-      </div>
-    </section>
-
-    <!-- About-section -->
-    <section class="about" id="about">
-      <h2>About Me</h2>
-      <p>
-        I’m an aspiring software engineer who loves building creative and
-        functional web projects using HTML and CSS.My goal is to become a
-        full-stack developer.
-      </p>
-    </section>
-
-    <!-- Projects-section -->
-    <section class="projects" id="projects">
-      <h2>Projects</h2>
-      <div class="project-list">
-        <div class="project-card">
-          <h3>Recipe Card</h3>
+    <main>
+      <!-- Hero-section -->
+      <section class="hero" id="hero">
+        <div class="hero-textuals">
+          <h1>Hi, I’m</h1>
+          <h1 class="gradient-text">Khalil Ahmed</h1>
           <p>
-            A simple HTML & CSS project displaying a recipe design with image
-            and text side by side.
+            A passionate student learning web development and software
+            engineering.
           </p>
+          <div class="hero-btns">
+            <button class="primary-btn">
+              <a href="#projects">See My Work</a>
+            </button>
+            <button class="secondary-btn">
+              <a href="#contact">Contact Me</a>
+            </button>
+          </div>
         </div>
-        <div class="project-card">
-          <h3>Certificate Template</h3>
-          <p>
-            A creative layout built with CSS borders, text alignment, and
-            background styling.
-          </p>
+        <div class="hero-visuals floating">
+          <img src="assets/myPic.JPG" alt="My Photo" />
         </div>
-        <div class="project-card">
-          <h3>Portfolio Page</h3>
-          <p>This very website — built with clean code and flexible design.</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Contact-section -->
-    <section id="contact" class="contact">
-      <h2>Contact Me</h2>
-      <p><strong>📧 Email: </strong>khalilirshad@gmail.com</p>
-      <p><strong>📞 Phone: </strong>+93704608590</p>
-      <p class="message">I’d love to collaborate or hear your feedback!</p>
-    </section>
+      <!-- About-section -->
+      <section class="about" id="about">
+        <h2 class="gradient-text">Who Am I</h2>
+        <div class="about-materials">
+          <article class="about-me transparent-card">
+            <h3>Hi, I am Khalil Ahmed:</h3>
+            <p>
+              A focused Computer Science student, building modern and responsive
+              web applications while transitioning toward full-stack development
+              and AI-powered applications. I focus on understanding how things
+              work deeply rather than memorizing syntax.
+            </p>
+            <p>
+              I started my journey at an Islamic institution, later studied at
+              one of the best colleges in Pakistan, and eventually returned to
+              my home country to pursue a BCS at Bakhtar University. Along with
+              this, I also start the fundamentals of web development and
+              currently working in HTML, CSS and JS while working on real
+              projects.
+            </p>
+            <p>
+              I enjoy solving problems, understanding that how things work
+              behind the scene and learning by building rather than simply
+              studying theory. My current focus is strenthening my JavaScript
+              and frontend development skills, with goal of becoming a capable
+              full-stack developer.
+            </p>
+            <p>
+              Beyond web development, I am interested in
+              <strong>technology, automation, AI, and entrepreneurship.</strong>
+            </p>
+            <p>
+              I believe development is a continuous process:
+              <strong
+                >learn, build make mistakes, improve and build again.</strong
+              >
+            </p>
+            <p>Check my CV for more info.</p>
+            <button class="primary-btn">
+              <a href="assets/myCV.pdf">My CV</a>
+            </button>
+          </article>
+        </div>
+      </section>
 
-    <!-- footer -->
+      <!-- Projects-section -->
+      <section class="projects" id="projects">
+        <h2 class="gradient-text">Projects I've Built</h2>
+        <div class="project-list">
+          <div class="project-card transparent-card">
+            <h3>Netflix Clone</h3>
+            <p>
+              A Netflix-inspired interface built with HTML, CSS, and JavaScript.
+            </p>
+            <a
+              class="primary-btn"
+              href="https://github.com/khalilahmed789/Netplix-Clone"
+              >Live Demo</a
+            >
+          </div>
+          <div class="project-card transparent-card">
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>
+              A two-player offline Tic-Tac-Toe game built with HTML, CSS, and
+              JavaScript.
+            </p>
+            <a
+              class="primary-btn"
+              href="https://tic-tac-toc-game-seven.vercel.app/"
+              >Live Demo</a
+            >
+          </div>
+          <div class="project-card transparent-card">
+            <h3>Portfolio Page</h3>
+            <p>
+              A responsive and animated personal portfolio page, built with
+              HTML, CSS and JS.
+            </p>
+            <a
+              class="primary-btn"
+              href="https://personal-portpolio-2-liart.vercel.app/"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact-section -->
+      <section id="contact" class="contact">
+        <h2 class="gradient-text">Let's Work Together</h2>
+        <form
+          action="#"
+          method="post"
+          id="contact-form"
+          class="contact-form transparent-card"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <input
+            type="hidden"
+            name="subject"
+            value="new message from portfolio"
+          />
+          <button type="submit" class="primary-btn" id="form-submit-btn">
+            Send Message
+          </button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
     <footer>
-      <div class="up">⬆</div>
+      <p>© 2026 BuildWithKhalil. All rights reserved.</p>
     </footer>
   </body>
 </html>
